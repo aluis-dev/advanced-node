@@ -1,0 +1,12 @@
+{
+  "name": "node_fundamentals",
+  "version": "0.0.1",
+  "description": "buffers, streams, network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "module"
+}
