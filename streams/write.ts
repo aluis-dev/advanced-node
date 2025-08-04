@@ -11,7 +11,7 @@ const TOTAL_OF_WRITE = 500_000;
 
 (async() => {
     console.time('Write to file');
-    const fileHandle = await open('output.txt', 'w');
+    const fileHandle = await open('src.txt', 'w');
     const stream = fileHandle.createWriteStream();
 
     let i = 0;
