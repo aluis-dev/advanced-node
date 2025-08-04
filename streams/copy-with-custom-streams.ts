@@ -2,7 +2,7 @@ import { open } from 'node:fs/promises';
 
 (async () => {
     const srcFile = await open('src.txt', 'r');
-    const destFile = await open('copied.txt', 'w');
+    const destFile = await open('copied-with-custom-buffer.txt', 'w');
 
     let bytesRead = -1;
     while(bytesRead !== 0) {
